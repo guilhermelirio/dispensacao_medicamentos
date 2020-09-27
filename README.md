@@ -14,4 +14,4 @@ The application is an example of dispensing medicines from a drugstore / health 
 
 
 # Tables
-![Alt text](/assets/images/tables.pmg?raw=true "Table names and fields")
+![Table names and fields](/assets/images/tables.png?raw=true "Table names and fields")
