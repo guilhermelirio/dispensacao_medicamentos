@@ -1,8 +1,8 @@
 # dispensacao_medicamentos
  
-Aplicativo desenvolvido em Flutter mostrando um exemplo do Hasura com o GetX.
+Application developed in Flutter showing an example of a registration using Hasura with GetX.
 
-O aplicativo é um exemplo de dispensação de medicamentos de uma drogaria/posto de saúde pela Farmácia Popular.
+The application is an example of dispensing medicines from a drugstore / health center by the Popular Pharmacy (https://www.gov.br/saude/pt-br/acesso-a-informacao/acoes-e-programas/farmacia-popular)
 
 ## Packages
 - hasura_connect: ^1.2.2+1
@@ -11,3 +11,7 @@ O aplicativo é um exemplo de dispensação de medicamentos de uma drogaria/post
 - smart_select: ^3.0.3
 - intl: ^0.16.1
 - mask_text_input_formatter: ^1.1.0
+
+
+# Tables
+![Alt text](/assets/images/tables.pmg?raw=true "Table names and fields")

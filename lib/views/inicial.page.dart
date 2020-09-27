@@ -5,7 +5,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'pacientes.page.dart';
 
-class InitialPage extends StatelessWidget {
+class InicialPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -37,7 +37,7 @@ class InitialPage extends StatelessWidget {
               ActionButton(
                 'Dispensações',
                 FontAwesomeIcons.fileMedical,
-                DispensingPage(),
+                DispensacaoPage(),
               ),
             ],
           ),

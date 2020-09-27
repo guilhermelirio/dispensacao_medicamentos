@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
             buttonColor: Colors.red, //  <-- dark color
           )),
       debugShowCheckedModeBanner: false,
-      home: InitialPage(),
+      home: InicialPage(),
     );
   }
 }

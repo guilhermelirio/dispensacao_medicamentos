@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 
-class CadMedicinePage extends StatelessWidget {
+class CadMedicamentoPage extends StatelessWidget {
   final MedicamentosController mController = Get.put(MedicamentosController());
 
   final FocusNode codBarrasFocus = FocusNode();
@@ -24,7 +24,7 @@ class CadMedicinePage extends StatelessWidget {
           icon: Icon(Icons.arrow_back, color: Colors.white),
           onPressed: () => Get.back(),
         ),
-        title: Text('Cadastrar Medicamentos'),
+        title: Text('Cadastrar Medicamento'),
       ),
       body: SingleChildScrollView(
         physics: AlwaysScrollableScrollPhysics(),
@@ -50,10 +50,11 @@ class CadMedicinePage extends StatelessWidget {
                 hint: 'Código de Barras',
                 focoInicial: codBarrasFocus,
                 focoFinal: nomeFocus,
+                tamanho: 13,
                 acaoKeyboard: TextInputAction.next,
               ),
               SizedBox(
-                height: 20,
+                height: 5,
               ),
               CriaInput(
                 controller: nomeController,

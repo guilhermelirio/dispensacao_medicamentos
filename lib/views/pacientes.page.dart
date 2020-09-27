@@ -21,7 +21,7 @@ class PatientPage extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(right: 20.0),
             child: GestureDetector(
-              onTap: () => Get.to(CadUserPage()),
+              onTap: () => Get.to(CadPacientePage()),
               child: Icon(Icons.person_add),
             ),
           ),

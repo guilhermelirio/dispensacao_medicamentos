@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 import 'package:intl/intl.dart';
 import 'detalhes_dispensacao.page.dart';
 
-class DispensingPage extends StatelessWidget {
+class DispensacaoPage extends StatelessWidget {
   final DispensacaoController dController = Get.put(DispensacaoController());
 
   var formatter = new DateFormat('dd/MM/yyyy');
@@ -26,7 +26,7 @@ class DispensingPage extends StatelessWidget {
           Padding(
             padding: EdgeInsets.only(right: 20.0),
             child: GestureDetector(
-              onTap: () => Get.to(CadDispensacao()),
+              onTap: () => Get.to(CadDispensacaoPage()),
               child: Icon(FontAwesomeIcons.bookMedical),
             ),
           ),

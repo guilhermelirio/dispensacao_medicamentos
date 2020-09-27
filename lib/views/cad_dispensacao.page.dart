@@ -6,7 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:smart_select/smart_select.dart';
 
-class CadDispensacao extends StatelessWidget {
+class CadDispensacaoPage extends StatelessWidget {
   final DispensacaoController dController = Get.put(DispensacaoController());
   final MedicamentosController mController = Get.put(MedicamentosController());
   final PacientesController uController = Get.put(PacientesController());

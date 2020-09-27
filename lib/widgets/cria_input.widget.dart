@@ -15,6 +15,7 @@ class CriaInput extends StatelessWidget {
   IconData icone;
   TextEditingController controller;
   bool habilitado;
+  int tamanho;
 
   var maskTelefone = MaskTextInputFormatter(
       mask: "(##) #####-####", filter: {"#": RegExp(r'[0-9]')});
@@ -32,6 +33,7 @@ class CriaInput extends StatelessWidget {
     this.acaoKeyboard,
     this.valorInicial,
     this.hint,
+    this.tamanho,
     this.habilitado = true,
   });
 
@@ -42,6 +44,7 @@ class CriaInput extends StatelessWidget {
           ? TextCapitalization.none
           : TextCapitalization.words,
       inputFormatters: formatacao == 'tel' ? [maskTelefone] : null,
+      maxLength: tamanho,
       controller: controller,
       onChanged: setInput,
       enabled: habilitado,

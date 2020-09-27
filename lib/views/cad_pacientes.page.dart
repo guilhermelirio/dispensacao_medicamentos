@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controllers/pacientes.controller.dart';
 
-class CadUserPage extends StatelessWidget {
+class CadPacientePage extends StatelessWidget {
   final PacientesController uController = Get.put(PacientesController());
 
   final FocusNode nomeFocus = FocusNode();
