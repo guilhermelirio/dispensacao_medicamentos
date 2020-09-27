@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "tables": [
+    {
+      "table": {
+        "schema": "public",
+        "name": "dispensacao"
+      },
+      "object_relationships": [
+        {
+          "name": "paciente",
+          "using": {
+            "foreign_key_constraint_on": "id_paciente"
+          }
+        }
+      ],
+      "array_relationships": [
+        {
+          "name": "medicamentos_dispensados",
+          "using": {
+            "foreign_key_constraint_on": {
+              "column": "id_dispensacao",
+              "table": {
+                "schema": "public",
+                "name": "medicamentos_dispensacao"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "table": {
+        "schema": "public",
+        "name": "medicamentos"
+      }
+    },
+    {
+      "table": {
+        "schema": "public",
+        "name": "medicamentos_dispensacao"
+      },
+      "object_relationships": [
+        {
+          "name": "dispensacao",
+          "using": {
+            "foreign_key_constraint_on": "id_dispensacao"
+          }
+        },
+        {
+          "name": "medicamento",
+          "using": {
+            "foreign_key_constraint_on": "id_medicamento"
+          }
+        }
+      ]
+    },
+    {
+      "table": {
+        "schema": "public",
+        "name": "pacientes"
+      }
+    }
+  ]
+}
