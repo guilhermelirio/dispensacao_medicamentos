@@ -13,5 +13,8 @@ The application is an example of dispensing medicines from a drugstore / health 
 - mask_text_input_formatter: ^1.1.0
 
 
-# Tables
+## Tables
 ![Table names and fields](/assets/images/tables.png?raw=true "Table names and fields")
+
+## Relationship
+![Relationship](/assets/images/metadata_relationship.json "Relationship")
