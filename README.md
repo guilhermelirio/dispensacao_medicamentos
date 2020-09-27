@@ -17,4 +17,4 @@ The application is an example of dispensing medicines from a drugstore / health 
 ![Table names and fields](/assets/images/tables.png?raw=true "Table names and fields")
 
 ## Relationship
-![Relationship](/assets/images/metadata_relationship.json "Relationship")
+![Relationship](/assets/json/metadata_relationship.json "Relationship")
