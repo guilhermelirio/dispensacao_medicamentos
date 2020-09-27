@@ -1,4 +1,4 @@
-const GRAPHQL_URL = "https://engaged-kangaroo-97.hasura.app/v1/graphql";
+const GRAPHQL_URL = "YOUR_GRAPHQL_ENDPOINT";
 
 class Queries {
   String listaPacientes = """
