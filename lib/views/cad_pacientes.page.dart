@@ -50,7 +50,7 @@ class CadUserPage extends StatelessWidget {
             ),
             CriaInput(
               controller: celularController,
-              tipo: TextInputType.text,
+              tipo: TextInputType.phone,
               isPassword: false,
               setInput: uController.celular,
               icone: Icons.phone_android,
